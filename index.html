@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="width=device-width, initial-scale=1.0">
+    <title>Colón Store / Proyecto Landing Page</title>
+    <meta name="keywords" content="landing, product, landing-page, freecodecamp">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56df1b1e1a.js" crossorigin="anonymous"></script>
+  </head>
+    <body>
+<header id="header">
+<nav id="nav-bar" class="navbar-fixed-top">
+<img class="logo" src="imgs/logo.png" alt="colon-store" id="header-img">  
+
+  <input type="checkbox" id="check">
+  <label for="check">
+    <i class="fas fa-bars" id="bot"></i>
+    <i class="fas fa-times" id="cancel"></i>
+  </label>
+
+  <ul class="nav-link">
+    <li><a href="#video">RESUMEN</a></li>
+    <li><a href="#seccion-tienda">TIENDA</a></li>
+    <li><a href="#contact">CONTACTO</a></li>
+  </ul>
+
+</nav>
+</header>
+
+<div class="welcome">
+  <div class="welcome-text">
+    <h1>Colón Store</h1>
+    <p>Descubrí los productos del campeón</p>
+    <a href="#video" class="boton">mirá el video</a>
+    <a href="#seccion-tienda" class="boton">comprar</a>
+  </div>
+</div>
+
+<section class="seccion-video" id="video">
+  <h2>yo te vi campeón</h2>
+  <h3>resumen del primer título del club a sus 116 años</h3>
+  <hr>
+  <div class="content">
+
+    <div class="video">
+      <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/VAjvphawWUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+  </div>
+</section>
+
+<section id="seccion-tienda">
+    <h2>vestite de campeón</h2>
+    <hr>
+
+    <div class="content-tienda"> 
+      <div class="box" id="ryn">
+        <a href="#"><span>
+        <div class="box-img">
+          <img src="https://i.postimg.cc/TPPHDYwN/ryj.jpg" alt="Roja y negra">
+        </div>
+        <div>
+          <p>Camiseta Campeón LPF 21/22<br>
+            Roja y Negra / 1° equipación</p>
+          <h4>$7,999.00</h4>
+        </div>
+      </span></a>
+      </div>
+
+      <div class="box" id="n">
+        <a href="#"><span>
+        <div class="box-img">
+          <img src="https://i.postimg.cc/RZdDhnMn/n.jpg" alt="Negra">
+        </div>
+        <div>
+          <p>Camiseta Campeón LPF 21/22<br>
+            Negra / 1° equipación</p>
+          <h4>$7,999.00</h4>
+        </div>
+      </span></a>
+      </div>
+
+      <div class="box" id="b">
+        <a href="#"><span>
+        <div class="box-img">
+          <img src="https://i.postimg.cc/SKvqXPy8/b.jpg" alt="Blanca">
+        </div>
+        <div>
+          <p>Camiseta Campeón LPF 21/22<br>
+            Blanca / 2° equipación</p>
+          <h4>$7,999.00</h4>
+        </div>
+      </span></a>
+      </div>      
+    </div>
+</section>
+
+<section id="form">      
+      <div class="content-form">
+        <div class="form-text">
+        Suscribite para 
+          recibir novedades
+        </div>
+    
+          
+            <form>
+              <div class="form-email">              
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Ingresá tu mail nombre@ejemplo.com"
+                  required
+                />
+              </div>
+              <div class="boton-div">
+                <button type="submit" id="submit" class="boton-form">
+                  SUSCRIBIR
+                </button>
+              </div>          
+            </form>  
+          
+      </div>
+</section>
+
+<section id="contact">
+<div class="contact-container">
+
+  <div class="club">
+  <a href="https://clubcolon.com.ar" alt="Club Colón"><img src="imgs/logo-footer.svg"></a>
+  </div>
+
+  <div class="direccion">
+    <p>Desde 1905 <br>
+    Av. Juan José Paso 3535, S3000 DXE, Santa Fe
+    0342 459-8025</p>
+  </div>
+
+  <div class="rrss">
+    <p><b><a href="#">¡Asociate!</a></b></p>
+      <div class="icons">
+      <ul class="icons">
+        <a href="#"><i class="fab fa-youtube" id="rrss"></i></a>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"> <i class="fab fa-twitter"></i></a>      
+      </ul>
+      </div> 
+  </div>
+
+</div>
+</section>
+
+<section id="footer">
+  <h6>Proyecto de Landing Page para FreeCodeCamp / Diseño y código <a href="mailto:sosajimena.sf@gmail.com">Jimena</a>. Enero, 2022</h6>
+</section>
+
+</body>
+</html>

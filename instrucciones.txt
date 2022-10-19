@@ -1,0 +1,66 @@
+PRODUCTO: COLÓN / condensada y una bien pesada para titulos
+ejemplo con instrucciones:
+https://codepen.io/freeCodeCamp/pen/RKRbwL
+
+ejemplos lindos: 
+https://codepen.io/ann_/pen/dgVEaw
+https://codepen.io/linh4/pen/vdvOrW
+
+https://fonts.googleapis.com/css?family=Kanit
+
+tutorial: https://www.youtube.com/watch?v=PwWHL3RyQgk&ab_channel=Skillthrive (navbar)
+
+
+_
+REGLAS:
+<header>
+y id="header" + id="header-img" + id="nav-bar"
+_
+nav con mínimo 3 elementos para hacer click con link dentro de la landing + class="nav-link"
+(menú superior).
+SIEMPRE VISIBLE en la parte superior del viewport
+_
+video incrustado - id="video"
+_
+form con id="form" (puede ser un campo de email para recibir novedades) / input con id="email"
+campo #email con instrucción (texto), validado por html5 (ídem positano) / input id="submit" (botón)
+cuando envío linkear https://www. reecodecamp.com/email-submit
+_
+al menos un media query (responsive)
+_
+al menos un flexbox
+
+.toggle-menu{
+  display: block;
+  font-size: 1.2em;
+  align-self: center;
+  cursor: pointer;
+}
+
+
+section {
+    padding: 20px 0 40px 0;
+}
+MISMO PADDING EN TODAS LAS SECCIONES
+
+tienda:
+animación borde negro ver puma o adidas
+
+
+.box a:before {
+transition: 0.5s ease-in-out;
+transform: scaleY(1);
+
+}
+
+.box a:hover:before {
+transform: scaleY(0);
+}
+
+<div class="redes-container">
+<ul>
+
+<li><a href="#" class="facebook"><i class="fab fa-facebook"></i></a></li>
+
+</ul>
+</div>
